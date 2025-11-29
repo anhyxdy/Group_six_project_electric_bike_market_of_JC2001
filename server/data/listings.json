@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1699990000001,
+    "name": "小牛电动车N1S",
+    "price": "¥3,200",
+    "originalPrice": "¥5,999",
+    "specs": "续航60km • 2022年",
+    "location": "北京朝阳区",
+    "description": "车况良好，定期保养，电池续航能力强，适合日常通勤使用。",
+    "images": [],
+    "status": "pending",
+    "createdAt": "2025-11-16T00:00:00.000Z"
+  },
+  {
+    "id": 1699990000002,
+    "name": "雅迪电动车 DE2",
+    "price": "¥2,800",
+    "originalPrice": "¥4,599",
+    "specs": "续航80km • 2023年",
+    "location": "上海浦东区",
+    "description": "几乎全新，使用时间短，性能优异，续航里程长。",
+    "images": [],
+    "status": "pending",
+    "createdAt": "2025-11-16T00:00:00.000Z"
+  },
+  {
+    "id": 1699990000003,
+    "name": "爱玛电动车 AM6",
+    "price": "¥1,800",
+    "originalPrice": "¥3,299",
+    "specs": "续航50km • 2021年",
+    "location": "广州天河区",
+    "description": "性价比高，适合学生和上班族，维护成本低。",
+    "images": [],
+    "status": "pending",
+    "createdAt": "2025-11-16T00:00:00.000Z"
+  }
+]

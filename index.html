@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Group 6 Second-hand Electric Bike Market - Professional second-hand electric vehicle trading platform, providing high-quality second-hand electric bike buying and selling services">
+    <meta name="keywords" content="second-hand electric bike, electric vehicle trading, used bike sales, Group 6, electric bike market">
+    <title>Group 6 Second-hand Electric Bike Market - Professional Second-hand Electric Vehicle Trading Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-text">Group 6</span>
+                        <span class="logo-subtitle">Second-hand Electric Bike Market</span>
+                    </a>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#vehicles" class="nav-link">Vehicle Display</a></li>
+                        <li class="nav-item"><a href="#categories" class="nav-link">Browse Categories</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-actions">
+                    <button class="btn btn-outline" id="login-btn">Login</button>
+                    <button class="btn btn-primary" id="register-btn">Register</button>
+                    <button class="btn btn-primary" id="sell-btn" style="margin-left:8px">Sell Vehicle</button>
+                    <button class="btn btn-secondary" id="admin-btn" style="display: none; margin-left:8px">Admin Panel</button>
+                    <button class="btn btn-secondary" id="chat-btn" style="display: none;">💬 Chat</button>
+                    <button class="btn btn-outline" id="logout-btn" style="display: none;">exit</button>
+                    <button class="mobile-menu-toggle" id="mobile-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Find Your Ideal Electric Vehicle</h1>
+                    <p class="hero-subtitle">Group 6 Second-hand Electric Bike Market, providing you with the highest quality second-hand electric bike trading services</p>
+                    
+                    <div class="search-box">
+                        <form class="search-form">
+                            <div class="search-field">
+                                <input type="text" placeholder="Search brand, model..." class="search-input">
+                            </div>
+                            <div class="search-field">
+                                <select class="search-select">
+                                    <option value="">Price Range</option>
+                                    <option value="0-2000">¥0-2000</option>
+                                    <option value="2000-5000">¥2000-5000</option>
+                                    <option value="5000-10000">¥5000-10000</option>
+                                    <option value="10000+">¥10000+</option>
+                                </select>
+                            </div>
+                            <div class="search-field">
+                                <select class="search-select">
+                                    <option value="">Vehicle Type</option>
+                                    <option value="scooter">Scooter</option>
+                                    <option value="bicycle">Electric Bicycle</option>
+                                    <option value="motorcycle">Electric Motorcycle</option>
+                                    <option value="tricycle">Electric Tricycle</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary search-btn">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Features -->
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Why Choose Us</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3 class="feature-title">Professional Inspection</h3>
+                        <p class="feature-desc">Every vehicle undergoes professional technician inspection to ensure reliable quality</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3 class="feature-title">Transparent Pricing</h3>
+                        <p class="feature-desc">Clear pricing with no hidden fees, giving you peace of mind</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3 class="feature-title">Quality Assurance</h3>
+                        <p class="feature-desc">Provide after-sales support, making your purchase worry-free</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🚚</div>
+                        <h3 class="feature-title">Home Delivery</h3>
+                        <p class="feature-desc">Free local delivery with professional installation and debugging services</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Vehicles -->
+        <section id="vehicles" class="vehicles">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Popular Vehicles</h2>
+                    <a href="#all-vehicles" class="view-all">View All →</a>
+                </div>
+                
+                <div class="vehicles-grid">
+                    <div class="vehicle-card">
+                        <div class="vehicle-image">
+                            <div class="vehicle-placeholder">Niu Electric N1S</div>
+                            <div class="vehicle-badge">Bestseller</div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3 class="vehicle-name">Niu Electric N1S</h3>
+                            <p class="vehicle-specs">Range 60km • 2022</p>
+                            <div class="vehicle-price">
+                                <span class="current-price">¥3,200</span>
+                                <span class="original-price">¥5,999</span>
+                            </div>
+                            <div class="vehicle-location">📍 Chaoyang District, Beijing</div>
+                        </div>
+                    </div>
+                    
+                    <div class="vehicle-card">
+                        <div class="vehicle-image">
+                            <img src="images/vehicles/vehicle-2.jpg" alt="Yadea Electric Vehicle" loading="lazy">
+                            <div class="vehicle-badge">Recommended</div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3 class="vehicle-name">Yadea DE2</h3>
+                            <p class="vehicle-specs">Range 80km • 2023</p>
+                            <div class="vehicle-price">
+                                <span class="current-price">¥2,800</span>
+                                <span class="original-price">¥4,599</span>
+                            </div>
+                            <div class="vehicle-location">📍 Pudong District, Shanghai</div>
+                        </div>
+                    </div>
+                    
+                    <div class="vehicle-card">
+                        <div class="vehicle-image">
+                            <img src="images/vehicles/vehicle-3.jpg" alt="Aima Electric Vehicle" loading="lazy">
+                        </div>
+                        <div class="vehicle-info">
+                            <h3 class="vehicle-name">Aima AM6</h3>
+                            <p class="vehicle-specs">Range 50km • 2021</p>
+                            <div class="vehicle-price">
+                                <span class="current-price">¥1,800</span>
+                                <span class="original-price">¥3,299</span>
+                            </div>
+                            <div class="vehicle-location">📍 Tianhe District, Guangzhou</div>
+                        </div>
+                    </div>
+                    
+                    <div class="vehicle-card">
+                        <div class="vehicle-image">
+                            <img src="images/vehicles/vehicle-4.jpg" alt="Tailg Electric Vehicle" loading="lazy">
+                        </div>
+                        <div class="vehicle-info">
+                            <h3 class="vehicle-name">Tailg TL800</h3>
+                            <p class="vehicle-specs">Range 70km • 2022</p>
+                            <div class="vehicle-price">
+                                <span class="current-price">¥2,600</span>
+                                <span class="original-price">¥4,199</span>
+                            </div>
+                            <div class="vehicle-location">📍 Nanshan District, Shenzhen</div>
+                        </div>
+                    </div>
+                    
+                    <div class="vehicle-card">
+                        <div class="vehicle-image">
+                            <img src="images/vehicles/vehicle-5.jpg" alt="Luyuan Electric Vehicle" loading="lazy">
+                        </div>
+                        <div class="vehicle-info">
+                            <h3 class="vehicle-name">Luyuan LY20</h3>
+                            <p class="vehicle-specs">Range 65km • 2023</p>
+                            <div class="vehicle-price">
+                                <span class="current-price">¥3,000</span>
+                                <span class="original-price">¥4,899</span>
+                            </div>
+                            <div class="vehicle-location">📍 Xihu District, Hangzhou</div>
+                        </div>
+                    </div>
+                    
+                    <div class="vehicle-card">
+                        <div class="vehicle-image">
+                            <img src="images/vehicles/vehicle-6.jpg" alt="Ninebot Electric Vehicle" loading="lazy">
+                        </div>
+                        <div class="vehicle-info">
+                            <h3 class="vehicle-name">Ninebot C30</h3>
+                            <p class="vehicle-specs">Range 55km • 2022</p>
+                            <div class="vehicle-price">
+                                <span class="current-price">¥2,400</span>
+                                <span class="original-price">¥3,999</span>
+                            </div>
+                            <div class="vehicle-location">📍 Jinjiang District, Chengdu</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Browse Categories -->
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2 class="section-title">Browse by Type</h2>
+                <div class="categories-grid">
+                    <a href="#scooter" class="category-card">
+                        <div class="category-icon">🛵</div>
+                        <h3 class="category-name">Scooters</h3>
+                        <p class="category-count">120+ vehicles</p>
+                    </a>
+                    
+                    <a href="#bicycle" class="category-card">
+                        <div class="category-icon">🚲</div>
+                        <h3 class="category-name">Electric Bicycles</h3>
+                        <p class="category-count">85+ vehicles</p>
+                    </a>
+                    
+                    <a href="#motorcycle" class="category-card">
+                        <div class="category-icon">🏍️</div>
+                        <h3 class="category-name">Electric Motorcycles</h3>
+                        <p class="category-count">65+ vehicles</p>
+                    </a>
+                    
+                    <a href="#tricycle" class="category-card">
+                        <div class="category-icon">🛺</div>
+                        <h3 class="category-name">Electric Tricycles</h3>
+                        <p class="category-count">40+ vehicles</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- User Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">User Reviews</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"I bought a Niu electric bike from Group 6. The condition is excellent and the price is reasonable. Great service attitude, recommended to everyone!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">👨</div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Mr. Zhang</h4>
+                                    <p class="author-location">Beijing User</p>
+                                </div>
+                                <div class="rating">
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"The professional inspection made me feel confident. I've had the Yadea electric bike for half a year and haven't had any issues. After-sales service is also excellent."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">👩</div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Ms. Li</h4>
+                                    <p class="author-location">Shanghai User</p>
+                                </div>
+                                <div class="rating">
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"First time buying a second-hand electric bike online. Group 6's transparent pricing and quality assurance made me very satisfied. Will recommend to friends."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">👨</div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Mr. Wang</h4>
+                                    <p class="author-location">Guangzhou User</p>
+                                </div>
+                                <div class="rating">
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                    <span class="star">⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">About Group 6 Second-hand Electric Bike Market</h2>
+                        <p class="about-desc">We are a professional second-hand electric vehicle trading platform, dedicated to providing users with high-quality, reliable second-hand electric bike buying and selling services. Since our establishment, we have helped thousands of users successfully complete second-hand electric vehicle transactions.</p>
+                        
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h3 class="stat-number">5000+</h3>
+                                <p class="stat-label">Successful Transactions</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">300+</h3>
+                                <p class="stat-label">Vehicles Available</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">98%</h3>
+                                <p class="stat-label">Customer Satisfaction</p>
+                            </div>
+                        </div>
+                        
+                        <a href="#contact" class="btn btn-primary">Contact Us</a>
+                    </div>
+                    
+                    <div class="about-image">
+                        <img src="images/about-us.jpg" alt="Group 6 Team" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Group 6 Second-hand Electric Bike Market</h3>
+                    <p class="footer-desc">A professional second-hand electric vehicle trading platform providing you with the highest quality buying and selling services.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📱 WeChat</a>
+                        <a href="#" class="social-link">📞 Phone</a>
+                        <a href="#" class="social-link">📧 Email</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#vehicles">Vehicle Display</a></li>
+                        <li><a href="#categories">Browse Categories</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Vehicle Types</h4>
+                    <ul class="footer-links">
+                        <li><a href="#scooter">Scooters</a></li>
+                        <li><a href="#bicycle">Electric Bicycles</a></li>
+                        <li><a href="#motorcycle">Electric Motorcycles</a></li>
+                        <li><a href="#tricycle">Electric Tricycles</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact Information</h4>
+                    <div class="contact-info">
+                        <p>📞 Customer Hotline: 400-123-4567</p>
+                        <p>📧 Email: service@group6-market.com</p>
+                        <p>📍 Address: Foshan City, Nanhai District, Shishan Town, Wanjin Road, Guangdong Province</p>
+                        <p>🕒 Business Hours: 9:00-18:00</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Group 6 Second-hand Electric Bike Market. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Help Center</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Admin Panel (embedded in index) -->
+    <section id="admin-panel" class="admin-panel" style="display:none; padding:24px; background:#f7f9fb; border-top:1px solid #e6e6e6;">
+        <div class="container">
+            <h2>Admin Panel — Pending Vehicle Approval</h2>
+            <div style="margin:12px 0">
+                <label>Admin Token (for demonstration): </label>
+                <input id="admin-token" style="width:260px" value="secret-admin-token">
+                <label style="margin-left:12px">Admin Name: </label>
+                <input id="admin-name" style="width:160px" value="Admin A">
+                <button id="reload-btn" class="btn btn-outline">Refresh</button>
+                <button id="close-admin" class="btn btn-outline" style="margin-left:8px">Close</button>
+            </div>
+            <div id="admin-listings"></div>
+            <p id="admin-empty" style="display:none">No pending vehicles for approval</p>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="login-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>User Login</h3>
+                <button class="modal-close" onclick="closeModal('login-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="login-email">Email Address</label>
+                        <input type="email" id="login-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" name="password" required>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                        <button type="button" class="btn btn-outline" onclick="closeModal('login-modal')">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration Modal -->
+    <div class="modal-overlay" id="register-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>User Registration</h3>
+                <button class="modal-close" onclick="closeModal('register-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="register-form">
+                    <div class="form-group">
+                        <label for="register-name">Name</label>
+                        <input type="text" id="register-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-email">Email Address</label>
+                        <input type="email" id="register-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-phone">Phone Number</label>
+                        <input type="tel" id="register-phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-password">Password</label>
+                        <input type="password" id="register-password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-confirm-password">Confirm Password</label>
+                        <input type="password" id="register-confirm-password" name="confirmPassword" required>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                        <button type="button" class="btn btn-outline" onclick="closeModal('register-modal')">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sell Vehicle Modal -->
+    <div class="modal-overlay" id="sell-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Post a Vehicle Listing</h3>
+                <button class="modal-close" onclick="closeModal('sell-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="sell-form">
+                    <div class="form-group">
+                        <label for="sell-name">Vehicle Name / Model</label>
+                        <input type="text" id="sell-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sell-price">Price (e.g. $3200)</label>
+                        <input type="text" id="sell-price" name="price" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sell-specs">Specs / Year / Mileage</label>
+                        <input type="text" id="sell-specs" name="specs">
+                    </div>
+                    <div class="form-group">
+                        <label for="sell-location">Location (City / Region)</label>
+                        <input type="text" id="sell-location" name="location">
+                    </div>
+                    <div class="form-group">
+                        <label for="sell-description">Description</label>
+                        <textarea id="sell-description" name="description" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="sell-images">Image URLs (comma separated, optional)</label>
+                        <input type="text" id="sell-images" name="images" placeholder="https://... , https://...">
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Submit Listing</button>
+                        <button type="button" class="btn btn-outline" onclick="closeModal('sell-modal')">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chat Modal -->
+    <div class="modal-overlay" id="chat-modal">
+        <div class="modal-content chat-modal">
+            <div class="modal-header">
+                <h3>💬 Online Chat</h3>
+                <button class="modal-close" onclick="closeModal('chat-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="chat-container">
+                    <div class="chat-messages" id="chat-messages">
+                        <div class="message system-message">
+                            <p>Welcome to Group 6 Second-hand Electric Bike Market chat system!</p>
+                        </div>
+                    </div>
+                    <div class="chat-input-container">
+                        <input type="text" id="chat-input" placeholder="Type your message..." maxlength="500">
+                        <button id="send-message-btn" class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/reputation.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

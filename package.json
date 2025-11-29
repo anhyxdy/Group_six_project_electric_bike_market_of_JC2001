@@ -1,0 +1,43 @@
+{
+  "name": "group6-electric-bike-market",
+  "version": "1.0.0",
+  "description": "Group 6二手电鸡交易市场 - 专业的二手电动车交易平台官网",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8080 -o",
+    "dev": "http-server -p 8080 -o",
+    "serve": "python -m http.server 8000",
+    "backend": "node server/index.js",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "二手电动车",
+    "电动车交易",
+    "Group 6",
+    "电鸡交易市场",
+    "responsive",
+    "website"
+  ],
+  "author": "Group 6 Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/group6/electric-bike-market.git"
+  },
+  "homepage": "https://group6.github.io/electric-bike-market",
+  "bugs": {
+    "url": "https://github.com/group6/electric-bike-market/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+} 
