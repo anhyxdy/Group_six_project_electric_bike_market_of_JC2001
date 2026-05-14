@@ -1,138 +1,127 @@
-# Group 6二手电鸡交易市场 - 官方网站
+# Group 6 Second-hand Electric Bike Marketplace
+A modern, responsive official website for a second-hand electric bike trading platform. Adopting a minimalist design concept, it provides users with high-quality services for buying and selling second-hand electric bikes.
 
-一个现代化、响应式的二手电动车交易平台官网，采用简约设计理念，为用户提供优质的二手电动车买卖服务。
+## 🚀 Project Features
+- **🎨 Modern Minimalist Design** - Green environmental themed style with a clean and elegant user interface
+- **📱 Fully Responsive** - Perfectly adapted for desktop, tablet and mobile devices
+- **⚡ Performance Optimization** - Fast loading speed and smooth user experience
+- **🔍 Smart Search** - Support vehicle search by brand, price and category
+- **💫 Interactive Experience** - Rich animation effects and user interactions
+- **♿ Accessibility Design** - Support keyboard navigation and screen readers
 
-## 🚀 项目特色
+## 🛠️ Tech Stack
+- **HTML5** - Semantic tags and SEO optimization
+- **CSS3** - Modern CSS features, Grid & Flexbox layout
+- **JavaScript** - Native ES6+, no framework dependency
+- **Responsive Design** - Mobile-first design approach
 
-- **🎨 现代简约设计** - 采用绿色环保主题，简洁美观的用户界面
-- **📱 完全响应式** - 完美适配桌面端、平板和移动设备
-- **⚡ 性能优化** - 快速加载，流畅的用户体验
-- **🔍 智能搜索** - 支持按品牌、价格、类型搜索车辆
-- **💫 交互体验** - 丰富的动画效果和用户交互
-- **♿ 无障碍设计** - 支持键盘导航和屏幕阅读器
-
-## 🛠️ 技术栈
-
-- **HTML5** - 语义化标签，SEO优化
-- **CSS3** - 现代CSS特性，Grid布局，Flexbox
-- **JavaScript** - 原生ES6+，无框架依赖
-- **响应式设计** - 移动端优先的设计理念
-
-## 📁 项目结构
-
+## 📁 Project Structure
 ```
 group6-electric-bike-market/
-├── index.html                 # 主页面
+├── index.html                 # Main homepage
 ├── css/
-│   └── style.css             # 主样式文件
+│   └── style.css             # Main style sheet
 ├── js/
-│   └── main.js               # 主JavaScript文件
-├── images/                   # 图片资源目录
-│   └── vehicles/            # 车辆图片
-├── assets/                   # 其他资源
-│   └── icons/               # 图标文件
-└── README.md                # 项目说明文档
+│   └── main.js               # Main JavaScript file
+├── images/                   # Image resource directory
+│   └── vehicles/             # Electric vehicle images
+├── assets/                   # Other static resources
+│   └── icons/                # Icon files
+└── README.md                 # Project documentation
 ```
 
-## 🎯 功能模块
+## 🎯 Functional Modules
+### 1. Navigation Bar
+- Responsive navigation menu
+- Mobile hamburger menu
+- Transparent background effect on scroll
+- Smooth anchor point scrolling
 
-### 1. 导航栏
-- 响应式导航菜单
-- 移动端汉堡菜单
-- 滚动时背景透明效果
-- 平滑锚点滚动
+### 2. Hero Section
+- Gradient background design
+- Intelligent search form
+- Fully responsive layout
 
-### 2. 英雄区域
-- 渐变背景设计
-- 智能搜索表单
-- 响应式布局
+### 3. Service Highlights
+- Display of four core services
+- Hover animation effects
+- Card-style layout design
 
-### 3. 服务特色
-- 四大核心服务展示
-- 悬停动画效果
-- 卡片式布局
+### 4. Vehicle Showcase
+- Display of 6 popular electric bikes
+- Modal popup to view vehicle details
+- Price comparison display
+- Vehicle location information
 
-### 4. 车辆展示
-- 6辆热门车辆展示
-- 点击查看详情模态框
-- 价格对比显示
-- 车辆位置信息
+### 5. Category Browsing
+- Four electric vehicle categories
+- Hover color transition effect
+- Vehicle quantity statistics
 
-### 5. 分类浏览
-- 四种车型分类
-- 悬停变色效果
-- 车辆数量统计
+### 6. User Testimonials
+- Slider carousel with 3 user reviews
+- Automatic switching function
+- 5-star rating display
+- Dot indicator navigation
 
-### 6. 用户评价
-- 3个用户评价轮播
-- 自动切换功能
-- 5星评分显示
-- 圆点指示器
+### 7. About Us
+- Company profile introduction
+- Statistical data presentation
+- Two-column responsive layout
 
-### 7. 关于我们
-- 公司介绍
-- 统计数据展示
-- 双栏布局设计
+### 8. Footer
+- Complete contact information
+- Quick link navigation
+- Social media links
+- Legal terms links
 
-### 8. 页脚
-- 完整联系信息
-- 快速链接导航
-- 社交媒体链接
-- 法律条款链接
-
-## 🚀 使用说明
-
-1. **本地运行**
+## 🚀 Usage Guide
+1. **Run Locally**
    ```bash
-   # 克隆或下载项目
-   # 双击 index.html 或在浏览器中打开
+   # Clone or download the project
+   # Double-click index.html to open in browser
    ```
 
-2. **开发服务器**（推荐）
+2. **Development Server (Recommended)**
    ```bash
-   # 使用 Python
+   # Run with Python
    python -m http.server 8000
    
-   # 使用 Node.js
+   # Run with Node.js
    npx http-server
    
-   # 然后访问 http://localhost:8000
+   # Then visit: http://localhost:8000
    ```
 
-## 🎨 设计系统
+## 🎨 Design System
+### Color Palette
+- **Primary Color**: `#2ECC71` (Green)
+- **Secondary Color**: `#3498DB` (Blue)
+- **Accent Color**: `#E74C3C` (Red)
+- **Neutral Color**: `#F8F9FA`, `#6C757D`, `#343A40`
 
-### 颜色方案
-- **主色调**: `#2ECC71` (绿色)
-- **辅助色**: `#3498DB` (蓝色)
-- **强调色**: `#E74C3C` (红色)
-- **中性色**: `#F8F9FA`, `#6C757D`, `#343A40`
+### Typography System
+- **Font Stack**: -apple-system, BlinkMacSystemFont, "Segoe UI"
+- **Font Size**: Progressive scale from 12px to 48px
 
-### 字体系统
-- **字体**: 系统字体栈 (-apple-system, BlinkMacSystemFont, "Segoe UI")
-- **尺寸**: 12px - 48px 渐进尺寸系统
+### Spacing System
+- **Base Unit**: 4px, 8px, 16px, 24px, 32px, 48px, 64px, 96px
 
-### 间距系统
-- **基础单位**: 4px, 8px, 16px, 24px, 32px, 48px, 64px, 96px
+## 📱 Responsive Breakpoints
+- **Mobile**: < 576px
+- **Tablet**: 576px - 768px
+- **Desktop**: 768px - 1200px
+- **Large Screen**: > 1200px
 
-## 📱 响应式断点
+## ⚡ Performance Optimization
+- **Image Lazy Loading** - Reduce initial page loading time
+- **CSS Grid/Flexbox** - Modern layout technology
+- **Event Delegation** - Optimize JavaScript execution performance
+- **Debounce & Throttle** - Optimize scroll and search events
 
-- **手机**: < 576px
-- **平板**: 576px - 768px
-- **桌面**: 768px - 1200px
-- **大屏**: > 1200px
-
-## ⚡ 性能优化
-
-- **图片懒加载** - 减少初始页面加载时间
-- **CSS Grid/Flexbox** - 现代布局技术
-- **事件委托** - 优化JavaScript性能
-- **防抖节流** - 优化滚动和搜索性能
-
-## 🔧 自定义配置
-
-### 修改主题颜色
-在 `css/style.css` 文件的 `:root` 选择器中修改CSS变量：
-
+## 🔧 Custom Configuration
+### Modify Theme Colors
+Edit CSS variables inside the `:root` selector in `css/style.css`:
 ```css
 :root {
     --primary-color: #your-color;
@@ -141,48 +130,43 @@ group6-electric-bike-market/
 }
 ```
 
-### 添加新车辆
-在 `js/main.js` 文件的 `vehicles` 数组中添加新的车辆数据。
+### Add New Vehicles
+Add new vehicle data to the `vehicles` array in `js/main.js`.
 
-### 修改轮播内容
-在 `index.html` 文件中的 `.testimonials-slider` 部分修改用户评价内容。
+### Modify Carousel Content
+Edit testimonial content within the `.testimonials-slider` section in `index.html`.
 
-## 🌐 浏览器兼容性
-
+## 🌐 Browser Compatibility
 - **Chrome** 60+
 - **Firefox** 55+
 - **Safari** 12+
 - **Edge** 79+
-- **移动浏览器** iOS Safari 12+, Chrome Mobile 60+
+- **Mobile Browsers**: iOS Safari 12+, Chrome Mobile 60+
 
-## 📞 联系我们
+## 📞 Contact Us
+- **Service Hotline**: 400-123-4567
+- **Email**: service@group6-market.com
+- **Address**: Tech Park, Chaoyang District, Beijing
+- **Business Hours**: 9:00 - 18:00
 
-- **客服热线**: 400-123-4567
-- **邮箱**: service@group6-market.com
-- **地址**: 北京市朝阳区科技园区
-- **营业时间**: 9:00-18:00
+## 📄 License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
-## 📄 许可证
+## 🤝 Contribution Guidelines
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
-
-## 🤝 贡献指南
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开 Pull Request
-
-## 📝 更新日志
-
+## 📝 Changelog
 ### v1.0.0 (2024-01-20)
-- 🎉 初始版本发布
-- ✨ 完整的响应式网站
-- 🎨 现代化UI设计
-- 📱 移动端优化
-- ⚡ 性能优化
+- 🎉 Initial official release
+- ✨ Complete responsive website layout
+- 🎨 Modern UI visual design
+- 📱 Full mobile device optimization
+- ⚡ Overall website performance improvement
 
 ---
 
-**Group 6二手电鸡交易市场** - 让二手电动车交易更简单、更可靠！ 
+**Group 6 Second-hand Electric Bike Marketplace** — Making second-hand electric bike trading simpler and more reliable.
